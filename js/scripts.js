@@ -4,8 +4,12 @@ $(document).ready(function() {
     $('#snake').show();
   } else if (animal === "bugs") {
     $('#bugs').show();
-  } else {
+  } else if (animal === "turtle") {
     $('#turtles').show();
+
+  } else{
+    alert("You suck, these animals are the best.");
+    $('#boo').show();
   }
 
 });
